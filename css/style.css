@@ -1,11 +1,11 @@
 body {
   font-family: 'Nunito', sans-serif;
-  color: #FAF3BC;
-  background: #420600 url('img/bg-texture.jpg') repeat;
+  color: #000000;
+  background: #FFFFFF repeat;
 }
 
 a {
-  color: #4FB69F;
+  color: #000000;
   text-decoration: none;
 }
 
@@ -16,7 +16,7 @@ h1 {
 
 h2 {
   font-size: 1.500em;
-  color: #B4C34F;
+  color: #000000;
 }
 
 .btn {
@@ -33,23 +33,29 @@ h2 {
 }
 
 ul.nav {
-  margin: 120px 0 0 0;
+  margin-left: 55px;
   list-style: none;
-  float: right;
+  float: left;
 }
 
 ul.nav li {
   float:left;
-  margin-right: 40px;
+  margin-right: 140px;
 }
 
 ul.nav li a {
-  color: #FAF3BC;
+  color: #000000;
+}
+
+#logo img {
+  margin-left: 350px;
 }
 
 #intro {
   margin: 50px 0 75px 0;
+ 
 }
+
 
 #new-cupcakes img {
   border: 8px solid #FAF3BC;
